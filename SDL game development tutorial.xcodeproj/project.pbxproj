@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FECC75622D0552900FB71B9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FECC75522D0552900FB71B9 /* main.cpp */; };
+		4FECC75E22D0554500FB71B9 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FECC75D22D0554500FB71B9 /* SDL2.framework */; };
+		4FECC76022D0555800FB71B9 /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FECC75F22D0555800FB71B9 /* SDL2_image.framework */; };
+		4FECC76322D0581600FB71B9 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FECC76222D0581600FB71B9 /* Game.cpp */; };
+		4FECC76622D24A9400FB71B9 /* TextureManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FECC76522D24A9400FB71B9 /* TextureManager.cpp */; };
+		4FECC76D22D2B7E200FB71B9 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FECC76C22D2B7E200FB71B9 /* Player.cpp */; };
+		4FECC77022D2BE3E00FB71B9 /* Enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FECC76F22D2BE3E00FB71B9 /* Enemy.cpp */; };
+		4FECC77422D305E300FB71B9 /* SDLGameObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FECC77322D305E300FB71B9 /* SDLGameObject.cpp */; };
+		4FECC77822D5B0C000FB71B9 /* InputHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FECC77722D5B0C000FB71B9 /* InputHandler.cpp */; };
+		4FECC77C22E5004400FB71B9 /* MenuState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FECC77B22E5004400FB71B9 /* MenuState.cpp */; };
+		4FECC77F22E5017B00FB71B9 /* PlayState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FECC77E22E5017B00FB71B9 /* PlayState.cpp */; };
+		4FECC78222E512A500FB71B9 /* GameStateMachine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FECC78122E512A500FB71B9 /* GameStateMachine.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4FECC75022D0552900FB71B9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4FECC75222D0552900FB71B9 /* SDL game development tutorial */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "SDL game development tutorial"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FECC75522D0552900FB71B9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4FECC75D22D0554500FB71B9 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
+		4FECC75F22D0555800FB71B9 /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_image.framework; path = ../../../../Library/Frameworks/SDL2_image.framework; sourceTree = "<group>"; };
+		4FECC76122D0562500FB71B9 /* Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		4FECC76222D0581600FB71B9 /* Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		4FECC76422D248C700FB71B9 /* TextureManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextureManager.h; sourceTree = "<group>"; };
+		4FECC76522D24A9400FB71B9 /* TextureManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TextureManager.cpp; sourceTree = "<group>"; };
+		4FECC76822D299CB00FB71B9 /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		4FECC76922D29BF700FB71B9 /* GameObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameObject.h; sourceTree = "<group>"; };
+		4FECC76C22D2B7E200FB71B9 /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		4FECC76E22D2BDE300FB71B9 /* Enemy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Enemy.h; sourceTree = "<group>"; };
+		4FECC76F22D2BE3E00FB71B9 /* Enemy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Enemy.cpp; sourceTree = "<group>"; };
+		4FECC77122D2FF2400FB71B9 /* LoaderParams.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoaderParams.h; sourceTree = "<group>"; };
+		4FECC77222D3049200FB71B9 /* SDLGameObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDLGameObject.h; sourceTree = "<group>"; };
+		4FECC77322D305E300FB71B9 /* SDLGameObject.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SDLGameObject.cpp; sourceTree = "<group>"; };
+		4FECC77522D4137000FB71B9 /* Vector2D.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vector2D.h; sourceTree = "<group>"; };
+		4FECC77622D4536C00FB71B9 /* InputHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputHandler.h; sourceTree = "<group>"; };
+		4FECC77722D5B0C000FB71B9 /* InputHandler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InputHandler.cpp; sourceTree = "<group>"; };
+		4FECC77922E4FCC300FB71B9 /* GameState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameState.h; sourceTree = "<group>"; };
+		4FECC77A22E4FF5400FB71B9 /* MenuState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuState.h; sourceTree = "<group>"; };
+		4FECC77B22E5004400FB71B9 /* MenuState.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MenuState.cpp; sourceTree = "<group>"; };
+		4FECC77D22E5013C00FB71B9 /* PlayState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayState.h; sourceTree = "<group>"; };
+		4FECC77E22E5017B00FB71B9 /* PlayState.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PlayState.cpp; sourceTree = "<group>"; };
+		4FECC78022E50AE800FB71B9 /* GameStateMachine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameStateMachine.h; sourceTree = "<group>"; };
+		4FECC78122E512A500FB71B9 /* GameStateMachine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GameStateMachine.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FECC74F22D0552900FB71B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FECC76022D0555800FB71B9 /* SDL2_image.framework in Frameworks */,
+				4FECC75E22D0554500FB71B9 /* SDL2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FECC74922D0552900FB71B9 = {
+			isa = PBXGroup;
+			children = (
+				4FECC75422D0552900FB71B9 /* SDL game development tutorial */,
+				4FECC75322D0552900FB71B9 /* Products */,
+				4FECC75C22D0554500FB71B9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4FECC75322D0552900FB71B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FECC75222D0552900FB71B9 /* SDL game development tutorial */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FECC75422D0552900FB71B9 /* SDL game development tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				4FECC75522D0552900FB71B9 /* main.cpp */,
+				4FECC76122D0562500FB71B9 /* Game.h */,
+				4FECC76222D0581600FB71B9 /* Game.cpp */,
+				4FECC76422D248C700FB71B9 /* TextureManager.h */,
+				4FECC76522D24A9400FB71B9 /* TextureManager.cpp */,
+				4FECC76822D299CB00FB71B9 /* Player.h */,
+				4FECC76C22D2B7E200FB71B9 /* Player.cpp */,
+				4FECC76922D29BF700FB71B9 /* GameObject.h */,
+				4FECC76E22D2BDE300FB71B9 /* Enemy.h */,
+				4FECC76F22D2BE3E00FB71B9 /* Enemy.cpp */,
+				4FECC77122D2FF2400FB71B9 /* LoaderParams.h */,
+				4FECC77222D3049200FB71B9 /* SDLGameObject.h */,
+				4FECC77322D305E300FB71B9 /* SDLGameObject.cpp */,
+				4FECC77522D4137000FB71B9 /* Vector2D.h */,
+				4FECC77622D4536C00FB71B9 /* InputHandler.h */,
+				4FECC77722D5B0C000FB71B9 /* InputHandler.cpp */,
+				4FECC77922E4FCC300FB71B9 /* GameState.h */,
+				4FECC77A22E4FF5400FB71B9 /* MenuState.h */,
+				4FECC77B22E5004400FB71B9 /* MenuState.cpp */,
+				4FECC77D22E5013C00FB71B9 /* PlayState.h */,
+				4FECC77E22E5017B00FB71B9 /* PlayState.cpp */,
+				4FECC78022E50AE800FB71B9 /* GameStateMachine.h */,
+				4FECC78122E512A500FB71B9 /* GameStateMachine.cpp */,
+			);
+			path = "SDL game development tutorial";
+			sourceTree = "<group>";
+		};
+		4FECC75C22D0554500FB71B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FECC75F22D0555800FB71B9 /* SDL2_image.framework */,
+				4FECC75D22D0554500FB71B9 /* SDL2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FECC75122D0552900FB71B9 /* SDL game development tutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FECC75922D0552900FB71B9 /* Build configuration list for PBXNativeTarget "SDL game development tutorial" */;
+			buildPhases = (
+				4FECC74E22D0552900FB71B9 /* Sources */,
+				4FECC74F22D0552900FB71B9 /* Frameworks */,
+				4FECC75022D0552900FB71B9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SDL game development tutorial";
+			productName = "SDL game development tutorial";
+			productReference = 4FECC75222D0552900FB71B9 /* SDL game development tutorial */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FECC74A22D0552900FB71B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Noah Levine";
+				TargetAttributes = {
+					4FECC75122D0552900FB71B9 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 4FECC74D22D0552900FB71B9 /* Build configuration list for PBXProject "SDL game development tutorial" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4FECC74922D0552900FB71B9;
+			productRefGroup = 4FECC75322D0552900FB71B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FECC75122D0552900FB71B9 /* SDL game development tutorial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FECC74E22D0552900FB71B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FECC77822D5B0C000FB71B9 /* InputHandler.cpp in Sources */,
+				4FECC77F22E5017B00FB71B9 /* PlayState.cpp in Sources */,
+				4FECC77422D305E300FB71B9 /* SDLGameObject.cpp in Sources */,
+				4FECC77022D2BE3E00FB71B9 /* Enemy.cpp in Sources */,
+				4FECC75622D0552900FB71B9 /* main.cpp in Sources */,
+				4FECC77C22E5004400FB71B9 /* MenuState.cpp in Sources */,
+				4FECC76322D0581600FB71B9 /* Game.cpp in Sources */,
+				4FECC78222E512A500FB71B9 /* GameStateMachine.cpp in Sources */,
+				4FECC76622D24A9400FB71B9 /* TextureManager.cpp in Sources */,
+				4FECC76D22D2B7E200FB71B9 /* Player.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4FECC75722D0552900FB71B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4FECC75822D0552900FB71B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4FECC75A22D0552900FB71B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K4RSPK2S4Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4FECC75B22D0552900FB71B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K4RSPK2S4Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FECC74D22D0552900FB71B9 /* Build configuration list for PBXProject "SDL game development tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FECC75722D0552900FB71B9 /* Debug */,
+				4FECC75822D0552900FB71B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FECC75922D0552900FB71B9 /* Build configuration list for PBXNativeTarget "SDL game development tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FECC75A22D0552900FB71B9 /* Debug */,
+				4FECC75B22D0552900FB71B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FECC74A22D0552900FB71B9 /* Project object */;
+}
