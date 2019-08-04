@@ -50,7 +50,7 @@ bool Game::init(const char* title, int xpos, int ypos, int width, int height, bo
     
     running = true;
     
-    if(!TheTextureManager::Instance()->load("/Users/noah/Desktop/SDL game development tutorial/assets/animate-alpha.png","animate", renderer))
+    if(!TheTextureManager::Instance()->load("/Users/noah/Desktop/SDL game development tutorial/SDL-game-development-tutorial/assets/animate-alpha.png","animate", renderer))
     {
         return false;
     }

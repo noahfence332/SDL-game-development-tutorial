@@ -5,7 +5,7 @@ TextureManager *TextureManager::instance = 0;
 
 bool TextureManager::load(std::string fileName, std::string id, SDL_Renderer* renderer)
 {
-    SDL_Surface* tempSurface = IMG_Load("/Users/noah/Desktop/SDL game development tutorial/assets/animate-alpha.png");
+    SDL_Surface* tempSurface = IMG_Load("/Users/noah/Desktop/SDL game development tutorial/SDL-game-development-tutorial/assets/animate-alpha.png");
     
     if(tempSurface == 0)
     {
